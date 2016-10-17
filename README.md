@@ -1,7 +1,7 @@
 ## 汇收银iOS SDK接入指南
 
 
-iOS SDK的 lib 文件夹下为 SDK 文件，example 文件夹里是简单的接入示例，仅供参考。 iOS SDK 适用于:
+iOS SDK的lib文件夹下为SDK文件，example文件夹里是简单的接入示例，仅供参考。iOS SDK适用于:
 
 + 支付宝钱包
 + 微信APP支付
