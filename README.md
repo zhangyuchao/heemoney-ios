@@ -13,7 +13,7 @@ iOS SDK的lib文件夹下为SDK文件，example文件夹里是简单的接入示
 ### 一、支付流程
 (http://github.com/yourname/your-repository/raw/master/images-folder/xxx.png)
 
-![汇收银交互流程图](https://github.com/JiangrxMaomao/heemoney-ios/raw/master/HeeMoneySDKDemo/images/DFD.png)
+![汇收银交互流程图](https://github.com/JiangrxMaomao/raw/master/heemoney-ios/HeeMoneySDKDemo/images/DFD.png)
 
 **交互步骤：**
 
