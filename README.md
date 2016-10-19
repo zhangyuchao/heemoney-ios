@@ -12,7 +12,7 @@ iOS SDK的lib文件夹下为SDK文件，example文件夹里是简单的接入示
 
 ### 一、支付流程
 
-
+![汇收银交互流程图](https://github.com/JiangrxMaomao/heemoney-ios/DFD.png)
 **交互步骤：**
 
 1. 商户客户端向商户服务器发送支付请求，携带商品信息，商户服务器按汇收银统一下单接口的要求进行组织参数，发送预支付请求。
