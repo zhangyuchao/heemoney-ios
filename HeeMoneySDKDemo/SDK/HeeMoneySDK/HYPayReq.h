@@ -84,10 +84,9 @@ typedef NS_ENUM(NSInteger, HYObjsType) {
 @property (nonatomic, retain) NSString *scheme;
 
 /**
- *  银联支付或者Sandbox环境必填
+ *  银联、ApplePay、百度支付或者Sandbox环境必填
  */
 @property (nonatomic, retain) UIViewController *viewController;
-
 
 /**
  *   支付对象。在通道下单成功之后返回。
