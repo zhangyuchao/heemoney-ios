@@ -1,17 +1,17 @@
 //
 //  HYPayChannelCell.h
-//  HeeMoneySDKDemo
+//  HeeMoneySDKSource
 //
-//  Created by  huiyuan on 16/8/18.
-//  Copyright © 2016年  huiyuan. All rights reserved.
+//  Created by  huiyuan on 16/6/3.
+//  Copyright © 2016年 汇元网. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface HYPayChannelCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UIImageView *CImg;
 
-@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (strong, nonatomic)  UIImage *image;
+@property (strong, nonatomic)  NSString *text;
 
 @end

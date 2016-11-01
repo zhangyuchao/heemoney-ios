@@ -1,15 +1,14 @@
 //
 //  ViewController.h
-//  HeeMoneySDKDemo
+//  HeeMoneySDKSource
 //
-//  Created by  huiyuan on 16/8/16.
-//  Copyright © 2016年  huiyuan. All rights reserved.
+//  Created by Jiangrx on 6/3/16.
+//  Copyright © 2016 汇元网. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface ViewController : UIViewController
 
 @end
 

@@ -1,14 +1,14 @@
 //
 //  AppDelegate.m
-//  HeeMoneySDKDemo
+//  HeeMoneySDKSource
 //
-//  Created by  huiyuan on 16/8/16.
-//  Copyright © 2016年  huiyuan. All rights reserved.
+//  Created by Jiangrx on 6/3/16.
+//  Copyright © 2016 汇元网. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "HeeMoney.h"
-
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    
+    UINavigationBar * naBar = [UINavigationBar appearance];
+    [naBar setBarTintColor:[UIColor colorWithRed:57/255.0f green:57/255.0f blue:62/255.0f alpha:1]];
+    [naBar setBarStyle:UIBarStyleBlack];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

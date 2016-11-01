@@ -7,49 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB13E3B21D645C14002503A3 /* HYPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13E3B11D645C14002503A3 /* HYPayViewController.m */; };
+		0C0BC0D31DC04C6D00E5F52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0BC0D11DC04C6D00E5F52B /* LaunchScreen.storyboard */; };
+		0C0BC1DF1DC08C9100E5F52B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1981DC08C9100E5F52B /* AlipaySDK.framework */; };
+		0C0BC1E01DC08C9100E5F52B /* libHYAliPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1991DC08C9100E5F52B /* libHYAliPayAdapter.a */; };
+		0C0BC1E11DC08C9100E5F52B /* libHYApplePayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC19B1DC08C9100E5F52B /* libHYApplePayAdapter.a */; };
+		0C0BC1E21DC08C9100E5F52B /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC19C1DC08C9100E5F52B /* libUPAPayPlugin.a */; };
+		0C0BC1E31DC08C9100E5F52B /* BaiduWallet_Portal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C0BC1A11DC08C9100E5F52B /* BaiduWallet_Portal.bundle */; };
+		0C0BC1E41DC08C9100E5F52B /* BaiduWallet_Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1A21DC08C9100E5F52B /* BaiduWallet_Portal.framework */; };
+		0C0BC1E51DC08C9100E5F52B /* libASIHTTPRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1A61DC08C9100E5F52B /* libASIHTTPRequest.a */; };
+		0C0BC1E61DC08C9100E5F52B /* libBaiduMobStatForSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1A91DC08C9100E5F52B /* libBaiduMobStatForSDK.a */; };
+		0C0BC1E71DC08C9100E5F52B /* libTouchJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1AA1DC08C9100E5F52B /* libTouchJSON.a */; };
+		0C0BC1E81DC08C9100E5F52B /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1AD1DC08C9100E5F52B /* libJSONKit.a */; };
+		0C0BC1E91DC08C9100E5F52B /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1AF1DC08C9100E5F52B /* libSDWebImage.a */; };
+		0C0BC1EA1DC08C9100E5F52B /* libHYBaiDuAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1BF1DC08C9100E5F52B /* libHYBaiDuAdapter.a */; };
+		0C0BC1EB1DC08C9100E5F52B /* libHYQQPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1C11DC08C9100E5F52B /* libHYQQPayAdapter.a */; };
+		0C0BC1EC1DC08C9100E5F52B /* QQWalletDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BC1C41DC08C9100E5F52B /* QQWalletDefines.m */; };
+		0C0BC1ED1DC08C9100E5F52B /* QQWalletSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BC1C61DC08C9100E5F52B /* QQWalletSDK.m */; };
+		0C0BC1EE1DC08C9100E5F52B /* QWApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BC1C81DC08C9100E5F52B /* QWApplication.m */; };
+		0C0BC1EF1DC08C9100E5F52B /* QWMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BC1CA1DC08C9100E5F52B /* QWMessage.m */; };
+		0C0BC1F01DC08C9100E5F52B /* QWServerPayTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BC1CC1DC08C9100E5F52B /* QWServerPayTask.m */; };
+		0C0BC1F11DC08C9100E5F52B /* QWTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BC1CE1DC08C9100E5F52B /* QWTask.m */; };
+		0C0BC1F21DC08C9100E5F52B /* QWURLEncodeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BC1D01DC08C9100E5F52B /* QWURLEncodeEngine.m */; };
+		0C0BC1F31DC08C9100E5F52B /* libHYUnionPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1D21DC08C9100E5F52B /* libHYUnionPayAdapter.a */; };
+		0C0BC1F41DC08C9100E5F52B /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1D31DC08C9100E5F52B /* libPaymentControl.a */; };
+		0C0BC1F51DC08C9100E5F52B /* libHYWXPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1D61DC08C9100E5F52B /* libHYWXPayAdapter.a */; };
+		0C0BC1F61DC08C9100E5F52B /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1D71DC08C9100E5F52B /* libWeChatSDK.a */; };
+		0C0BC1F71DC08C9100E5F52B /* libHeeMoney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0BC1DE1DC08C9100E5F52B /* libHeeMoney.a */; };
+		0C8AEBBD1DBDAEB800B7B4E6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8AEBBC1DBDAEB800B7B4E6 /* MBProgressHUD.m */; };
+		0C8AEBC01DBDAF4200B7B4E6 /* HYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8AEBBF1DBDAF4200B7B4E6 /* HYUtils.m */; };
+		0C8AEBC21DBE103B00B7B4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8AEBC11DBE103B00B7B4E6 /* Assets.xcassets */; };
+		270012663269B9FCFAD19F6A /* libPods-HeeMoneySDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5B3FAF47E8B283C92E2FA2 /* libPods-HeeMoneySDKDemo.a */; };
+		650EA1AD93249FEBFB205321 /* libPods-HeeMoneySDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD615A742501D5607455A93 /* libPods-HeeMoneySDKDemoTests.a */; };
+		7321DB482AEF51F4D3616AD4 /* libPods-HeeMoneySDKDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD1590EF4E5B3D20AA0224 /* libPods-HeeMoneySDKDemoUITests.a */; };
 		AB13E3B51D6559CF002503A3 /* HYPayChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13E3B41D6559CF002503A3 /* HYPayChannelCell.m */; };
 		AB240DD91D631AC400920C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB240DD81D631AC400920C78 /* main.m */; };
 		AB240DDC1D631AC400920C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB240DDB1D631AC400920C78 /* AppDelegate.m */; };
 		AB240DDF1D631AC400920C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB240DDE1D631AC400920C78 /* ViewController.m */; };
-		AB240DE21D631AC400920C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB240DE01D631AC400920C78 /* Main.storyboard */; };
-		AB240DE41D631AC400920C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB240DE31D631AC400920C78 /* Assets.xcassets */; };
-		AB240DE71D631AC400920C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB240DE51D631AC400920C78 /* LaunchScreen.storyboard */; };
 		AB240DF21D631AC400920C78 /* HeeMoneySDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB240DF11D631AC400920C78 /* HeeMoneySDKDemoTests.m */; };
 		AB240DFD1D631AC400920C78 /* HeeMoneySDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB240DFC1D631AC400920C78 /* HeeMoneySDKDemoUITests.m */; };
-		AB2766E81D7587300039ED93 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2766E11D7587300039ED93 /* SVIndefiniteAnimatedView.m */; };
-		AB2766E91D7587300039ED93 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB2766E31D7587300039ED93 /* SVProgressHUD.bundle */; };
-		AB2766EA1D7587300039ED93 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2766E51D7587300039ED93 /* SVProgressHUD.m */; };
-		AB2766EB1D7587300039ED93 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2766E71D7587300039ED93 /* SVRadialGradientLayer.m */; };
-		AB656D2A1D6D36E9003FA6ED /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CCF1D6D36E9003FA6ED /* AlipaySDK.framework */; };
-		AB656D2C1D6D36E9003FA6ED /* libHYAliPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CD31D6D36E9003FA6ED /* libHYAliPayAdapter.a */; };
-		AB656D2E1D6D36E9003FA6ED /* libHYApplePayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CD81D6D36E9003FA6ED /* libHYApplePayAdapter.a */; };
-		AB656D2F1D6D36E9003FA6ED /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CD91D6D36E9003FA6ED /* libUPAPayPlugin.a */; };
-		AB656D301D6D36E9003FA6ED /* BaiduWallet_Portal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB656CDE1D6D36E9003FA6ED /* BaiduWallet_Portal.bundle */; };
-		AB656D311D6D36E9003FA6ED /* BaiduWallet_Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CDF1D6D36E9003FA6ED /* BaiduWallet_Portal.framework */; };
-		AB656D321D6D36E9003FA6ED /* libASIHTTPRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CE31D6D36E9003FA6ED /* libASIHTTPRequest.a */; };
-		AB656D331D6D36E9003FA6ED /* libBaiduMobStatForSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CE61D6D36E9003FA6ED /* libBaiduMobStatForSDK.a */; };
-		AB656D341D6D36E9003FA6ED /* libTouchJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CE71D6D36E9003FA6ED /* libTouchJSON.a */; };
-		AB656D351D6D36E9003FA6ED /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CEA1D6D36E9003FA6ED /* libJSONKit.a */; };
-		AB656D361D6D36E9003FA6ED /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656CEC1D6D36E9003FA6ED /* libSDWebImage.a */; };
-		AB656D391D6D36E9003FA6ED /* libHYBaiDuAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656D011D6D36E9003FA6ED /* libHYBaiDuAdapter.a */; };
-		AB656D3A1D6D36E9003FA6ED /* libHYQQPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656D031D6D36E9003FA6ED /* libHYQQPayAdapter.a */; };
-		AB656D3C1D6D36E9003FA6ED /* QQWalletDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = AB656D091D6D36E9003FA6ED /* QQWalletDefines.m */; };
-		AB656D3D1D6D36E9003FA6ED /* QQWalletSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = AB656D0B1D6D36E9003FA6ED /* QQWalletSDK.m */; };
-		AB656D3E1D6D36E9003FA6ED /* QWApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = AB656D0D1D6D36E9003FA6ED /* QWApplication.m */; };
-		AB656D3F1D6D36E9003FA6ED /* QWMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB656D0F1D6D36E9003FA6ED /* QWMessage.m */; };
-		AB656D401D6D36E9003FA6ED /* QWServerPayTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AB656D111D6D36E9003FA6ED /* QWServerPayTask.m */; };
-		AB656D411D6D36E9003FA6ED /* QWTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AB656D131D6D36E9003FA6ED /* QWTask.m */; };
-		AB656D421D6D36E9003FA6ED /* QWURLEncodeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = AB656D151D6D36E9003FA6ED /* QWURLEncodeEngine.m */; };
-		AB656D441D6D36E9003FA6ED /* libHYUnionPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656D1A1D6D36E9003FA6ED /* libHYUnionPayAdapter.a */; };
-		AB656D451D6D36E9003FA6ED /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656D1B1D6D36E9003FA6ED /* libPaymentControl.a */; };
-		AB656D471D6D36E9003FA6ED /* libHYWXPayAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656D211D6D36E9003FA6ED /* libHYWXPayAdapter.a */; };
-		AB656D481D6D36E9003FA6ED /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656D221D6D36E9003FA6ED /* libWeChatSDK.a */; };
-		AB656D491D6D36E9003FA6ED /* libHeeMoney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB656D291D6D36E9003FA6ED /* libHeeMoney.a */; };
-		AB7A5DC71D63FB99004E6053 /* HYGoodsChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7A5DC61D63FB99004E6053 /* HYGoodsChannelCell.m */; };
-		AB7A5DCA1D64347A004E6053 /* HYOrderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7A5DC91D64347A004E6053 /* HYOrderTableViewController.m */; };
-		AB8239D11D6A9DF8005B372E /* HYGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8239D01D6A9DF8005B372E /* HYGoods.m */; };
-		AB92C8891D75216A00E7BBF9 /* HYResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92C8881D75216A00E7BBF9 /* HYResultViewController.m */; };
 		ABE730BE1D6D40970009A075 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE730BD1D6D40970009A075 /* CFNetwork.framework */; };
 		ABE730C01D6D40A10009A075 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE730BF1D6D40A10009A075 /* SystemConfiguration.framework */; };
 		ABE730C21D6D40A90009A075 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE730C11D6D40A90009A075 /* Security.framework */; };
@@ -94,8 +89,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB13E3B01D645C14002503A3 /* HYPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPayViewController.h; sourceTree = "<group>"; };
-		AB13E3B11D645C14002503A3 /* HYPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPayViewController.m; sourceTree = "<group>"; };
+		05D2A8DF71D39C90981A4003 /* Pods-HeeMoneySDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeMoneySDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeeMoneySDKDemo/Pods-HeeMoneySDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0BC0D21DC04C6D00E5F52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C0BC1981DC08C9100E5F52B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		0C0BC1991DC08C9100E5F52B /* libHYAliPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYAliPayAdapter.a; sourceTree = "<group>"; };
+		0C0BC19B1DC08C9100E5F52B /* libHYApplePayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYApplePayAdapter.a; sourceTree = "<group>"; };
+		0C0BC19C1DC08C9100E5F52B /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
+		0C0BC19D1DC08C9100E5F52B /* UPAPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
+		0C0BC19E1DC08C9100E5F52B /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
+		0C0BC1A11DC08C9100E5F52B /* BaiduWallet_Portal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaiduWallet_Portal.bundle; sourceTree = "<group>"; };
+		0C0BC1A21DC08C9100E5F52B /* BaiduWallet_Portal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduWallet_Portal.framework; sourceTree = "<group>"; };
+		0C0BC1A51DC08C9100E5F52B /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		0C0BC1A61DC08C9100E5F52B /* libASIHTTPRequest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASIHTTPRequest.a; sourceTree = "<group>"; };
+		0C0BC1A91DC08C9100E5F52B /* libBaiduMobStatForSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStatForSDK.a; sourceTree = "<group>"; };
+		0C0BC1AA1DC08C9100E5F52B /* libTouchJSON.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTouchJSON.a; sourceTree = "<group>"; };
+		0C0BC1AC1DC08C9100E5F52B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		0C0BC1AD1DC08C9100E5F52B /* libJSONKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libJSONKit.a; sourceTree = "<group>"; };
+		0C0BC1AF1DC08C9100E5F52B /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImage.a; sourceTree = "<group>"; };
+		0C0BC1B01DC08C9100E5F52B /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		0C0BC1B11DC08C9100E5F52B /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		0C0BC1B21DC08C9100E5F52B /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		0C0BC1B31DC08C9100E5F52B /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		0C0BC1B41DC08C9100E5F52B /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		0C0BC1B51DC08C9100E5F52B /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		0C0BC1B61DC08C9100E5F52B /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		0C0BC1B71DC08C9100E5F52B /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		0C0BC1B81DC08C9100E5F52B /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		0C0BC1B91DC08C9100E5F52B /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		0C0BC1BA1DC08C9100E5F52B /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		0C0BC1BB1DC08C9100E5F52B /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		0C0BC1BC1DC08C9100E5F52B /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		0C0BC1BD1DC08C9100E5F52B /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		0C0BC1BE1DC08C9100E5F52B /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		0C0BC1BF1DC08C9100E5F52B /* libHYBaiDuAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYBaiDuAdapter.a; sourceTree = "<group>"; };
+		0C0BC1C11DC08C9100E5F52B /* libHYQQPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYQQPayAdapter.a; sourceTree = "<group>"; };
+		0C0BC1C31DC08C9100E5F52B /* QQWalletDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQWalletDefines.h; sourceTree = "<group>"; };
+		0C0BC1C41DC08C9100E5F52B /* QQWalletDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQWalletDefines.m; sourceTree = "<group>"; };
+		0C0BC1C51DC08C9100E5F52B /* QQWalletSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQWalletSDK.h; sourceTree = "<group>"; };
+		0C0BC1C61DC08C9100E5F52B /* QQWalletSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQWalletSDK.m; sourceTree = "<group>"; };
+		0C0BC1C71DC08C9100E5F52B /* QWApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWApplication.h; sourceTree = "<group>"; };
+		0C0BC1C81DC08C9100E5F52B /* QWApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWApplication.m; sourceTree = "<group>"; };
+		0C0BC1C91DC08C9100E5F52B /* QWMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWMessage.h; sourceTree = "<group>"; };
+		0C0BC1CA1DC08C9100E5F52B /* QWMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWMessage.m; sourceTree = "<group>"; };
+		0C0BC1CB1DC08C9100E5F52B /* QWServerPayTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWServerPayTask.h; sourceTree = "<group>"; };
+		0C0BC1CC1DC08C9100E5F52B /* QWServerPayTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWServerPayTask.m; sourceTree = "<group>"; };
+		0C0BC1CD1DC08C9100E5F52B /* QWTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTask.h; sourceTree = "<group>"; };
+		0C0BC1CE1DC08C9100E5F52B /* QWTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTask.m; sourceTree = "<group>"; };
+		0C0BC1CF1DC08C9100E5F52B /* QWURLEncodeEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWURLEncodeEngine.h; sourceTree = "<group>"; };
+		0C0BC1D01DC08C9100E5F52B /* QWURLEncodeEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWURLEncodeEngine.m; sourceTree = "<group>"; };
+		0C0BC1D21DC08C9100E5F52B /* libHYUnionPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYUnionPayAdapter.a; sourceTree = "<group>"; };
+		0C0BC1D31DC08C9100E5F52B /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		0C0BC1D41DC08C9100E5F52B /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		0C0BC1D61DC08C9100E5F52B /* libHYWXPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYWXPayAdapter.a; sourceTree = "<group>"; };
+		0C0BC1D71DC08C9100E5F52B /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		0C0BC1D81DC08C9100E5F52B /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		0C0BC1D91DC08C9100E5F52B /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		0C0BC1DB1DC08C9100E5F52B /* HeeMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeeMoney.h; sourceTree = "<group>"; };
+		0C0BC1DC1DC08C9100E5F52B /* HYPayReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPayReq.h; sourceTree = "<group>"; };
+		0C0BC1DD1DC08C9100E5F52B /* HYPayResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPayResp.h; sourceTree = "<group>"; };
+		0C0BC1DE1DC08C9100E5F52B /* libHeeMoney.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHeeMoney.a; sourceTree = "<group>"; };
+		0C8AEBBB1DBDAEB800B7B4E6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0C8AEBBC1DBDAEB800B7B4E6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0C8AEBBE1DBDAF4200B7B4E6 /* HYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYUtils.h; sourceTree = "<group>"; };
+		0C8AEBBF1DBDAF4200B7B4E6 /* HYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYUtils.m; sourceTree = "<group>"; };
+		0C8AEBC11DBE103B00B7B4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FAE5A84FD09EA979F5497F /* Pods-HeeMoneySDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeMoneySDKDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeeMoneySDKDemoUITests/Pods-HeeMoneySDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A11333FB5E7CE4ECABAF3D4 /* Pods-HeeMoneySDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeMoneySDKDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeeMoneySDKDemoTests/Pods-HeeMoneySDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FD615A742501D5607455A93 /* libPods-HeeMoneySDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeeMoneySDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5B3FAF47E8B283C92E2FA2 /* libPods-HeeMoneySDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeeMoneySDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CFC4D3F465E37FFF2F496E /* Pods-HeeMoneySDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeMoneySDKDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeeMoneySDKDemoTests/Pods-HeeMoneySDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DAD0384AD19433CD8FA6692 /* Pods-HeeMoneySDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeMoneySDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeeMoneySDKDemo/Pods-HeeMoneySDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB13E3B31D6559CF002503A3 /* HYPayChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPayChannelCell.h; sourceTree = "<group>"; };
 		AB13E3B41D6559CF002503A3 /* HYPayChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPayChannelCell.m; sourceTree = "<group>"; };
 		AB240DD41D631AC400920C78 /* HeeMoneySDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeeMoneySDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,9 +167,6 @@
 		AB240DDB1D631AC400920C78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AB240DDD1D631AC400920C78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AB240DDE1D631AC400920C78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB240DE11D631AC400920C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB240DE31D631AC400920C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB240DE61D631AC400920C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB240DE81D631AC400920C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB240DED1D631AC400920C78 /* HeeMoneySDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeeMoneySDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB240DF11D631AC400920C78 /* HeeMoneySDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeeMoneySDKDemoTests.m; sourceTree = "<group>"; };
@@ -114,79 +174,6 @@
 		AB240DF81D631AC400920C78 /* HeeMoneySDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeeMoneySDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB240DFC1D631AC400920C78 /* HeeMoneySDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeeMoneySDKDemoUITests.m; sourceTree = "<group>"; };
 		AB240DFE1D631AC400920C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB2766E01D7587300039ED93 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		AB2766E11D7587300039ED93 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		AB2766E21D7587300039ED93 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		AB2766E31D7587300039ED93 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		AB2766E41D7587300039ED93 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		AB2766E51D7587300039ED93 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		AB2766E61D7587300039ED93 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		AB2766E71D7587300039ED93 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		AB2E72771D6E956F00BFE215 /* HeeMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeeMoney.h; sourceTree = "<group>"; };
-		AB2E72781D6E956F00BFE215 /* HYPayReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPayReq.h; sourceTree = "<group>"; };
-		AB2E72791D6E956F00BFE215 /* HYPayResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPayResp.h; sourceTree = "<group>"; };
-		AB656CCF1D6D36E9003FA6ED /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		AB656CD31D6D36E9003FA6ED /* libHYAliPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYAliPayAdapter.a; sourceTree = "<group>"; };
-		AB656CD81D6D36E9003FA6ED /* libHYApplePayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYApplePayAdapter.a; sourceTree = "<group>"; };
-		AB656CD91D6D36E9003FA6ED /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
-		AB656CDA1D6D36E9003FA6ED /* UPAPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
-		AB656CDB1D6D36E9003FA6ED /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
-		AB656CDE1D6D36E9003FA6ED /* BaiduWallet_Portal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaiduWallet_Portal.bundle; sourceTree = "<group>"; };
-		AB656CDF1D6D36E9003FA6ED /* BaiduWallet_Portal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduWallet_Portal.framework; sourceTree = "<group>"; };
-		AB656CE21D6D36E9003FA6ED /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
-		AB656CE31D6D36E9003FA6ED /* libASIHTTPRequest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASIHTTPRequest.a; sourceTree = "<group>"; };
-		AB656CE61D6D36E9003FA6ED /* libBaiduMobStatForSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStatForSDK.a; sourceTree = "<group>"; };
-		AB656CE71D6D36E9003FA6ED /* libTouchJSON.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTouchJSON.a; sourceTree = "<group>"; };
-		AB656CE91D6D36E9003FA6ED /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		AB656CEA1D6D36E9003FA6ED /* libJSONKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libJSONKit.a; sourceTree = "<group>"; };
-		AB656CEC1D6D36E9003FA6ED /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImage.a; sourceTree = "<group>"; };
-		AB656CED1D6D36E9003FA6ED /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
-		AB656CEE1D6D36E9003FA6ED /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		AB656CEF1D6D36E9003FA6ED /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
-		AB656CF01D6D36E9003FA6ED /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
-		AB656CF11D6D36E9003FA6ED /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
-		AB656CF21D6D36E9003FA6ED /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
-		AB656CF31D6D36E9003FA6ED /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
-		AB656CF41D6D36E9003FA6ED /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
-		AB656CF51D6D36E9003FA6ED /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
-		AB656CF61D6D36E9003FA6ED /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		AB656CF71D6D36E9003FA6ED /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
-		AB656CF81D6D36E9003FA6ED /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
-		AB656CF91D6D36E9003FA6ED /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
-		AB656CFA1D6D36E9003FA6ED /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
-		AB656CFB1D6D36E9003FA6ED /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		AB656D011D6D36E9003FA6ED /* libHYBaiDuAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYBaiDuAdapter.a; sourceTree = "<group>"; };
-		AB656D031D6D36E9003FA6ED /* libHYQQPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYQQPayAdapter.a; sourceTree = "<group>"; };
-		AB656D081D6D36E9003FA6ED /* QQWalletDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQWalletDefines.h; sourceTree = "<group>"; };
-		AB656D091D6D36E9003FA6ED /* QQWalletDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQWalletDefines.m; sourceTree = "<group>"; };
-		AB656D0A1D6D36E9003FA6ED /* QQWalletSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQWalletSDK.h; sourceTree = "<group>"; };
-		AB656D0B1D6D36E9003FA6ED /* QQWalletSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQWalletSDK.m; sourceTree = "<group>"; };
-		AB656D0C1D6D36E9003FA6ED /* QWApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWApplication.h; sourceTree = "<group>"; };
-		AB656D0D1D6D36E9003FA6ED /* QWApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWApplication.m; sourceTree = "<group>"; };
-		AB656D0E1D6D36E9003FA6ED /* QWMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWMessage.h; sourceTree = "<group>"; };
-		AB656D0F1D6D36E9003FA6ED /* QWMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWMessage.m; sourceTree = "<group>"; };
-		AB656D101D6D36E9003FA6ED /* QWServerPayTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWServerPayTask.h; sourceTree = "<group>"; };
-		AB656D111D6D36E9003FA6ED /* QWServerPayTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWServerPayTask.m; sourceTree = "<group>"; };
-		AB656D121D6D36E9003FA6ED /* QWTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTask.h; sourceTree = "<group>"; };
-		AB656D131D6D36E9003FA6ED /* QWTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTask.m; sourceTree = "<group>"; };
-		AB656D141D6D36E9003FA6ED /* QWURLEncodeEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWURLEncodeEngine.h; sourceTree = "<group>"; };
-		AB656D151D6D36E9003FA6ED /* QWURLEncodeEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWURLEncodeEngine.m; sourceTree = "<group>"; };
-		AB656D1A1D6D36E9003FA6ED /* libHYUnionPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYUnionPayAdapter.a; sourceTree = "<group>"; };
-		AB656D1B1D6D36E9003FA6ED /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
-		AB656D1C1D6D36E9003FA6ED /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
-		AB656D211D6D36E9003FA6ED /* libHYWXPayAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHYWXPayAdapter.a; sourceTree = "<group>"; };
-		AB656D221D6D36E9003FA6ED /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		AB656D231D6D36E9003FA6ED /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		AB656D241D6D36E9003FA6ED /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		AB656D291D6D36E9003FA6ED /* libHeeMoney.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHeeMoney.a; sourceTree = "<group>"; };
-		AB7A5DC51D63FB99004E6053 /* HYGoodsChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGoodsChannelCell.h; sourceTree = "<group>"; };
-		AB7A5DC61D63FB99004E6053 /* HYGoodsChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGoodsChannelCell.m; sourceTree = "<group>"; };
-		AB7A5DC81D64347A004E6053 /* HYOrderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOrderTableViewController.h; sourceTree = "<group>"; };
-		AB7A5DC91D64347A004E6053 /* HYOrderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOrderTableViewController.m; sourceTree = "<group>"; };
-		AB8239CF1D6A9DF8005B372E /* HYGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGoods.h; sourceTree = "<group>"; };
-		AB8239D01D6A9DF8005B372E /* HYGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGoods.m; sourceTree = "<group>"; };
-		AB92C8871D75216A00E7BBF9 /* HYResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYResultViewController.h; sourceTree = "<group>"; };
-		AB92C8881D75216A00E7BBF9 /* HYResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYResultViewController.m; sourceTree = "<group>"; };
 		ABE730BD1D6D40970009A075 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		ABE730BF1D6D40A10009A075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		ABE730C11D6D40A90009A075 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -211,6 +198,8 @@
 		ABE730E91D6D42830009A075 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		ABE730EB1D6D42950009A075 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		ABE730ED1D6D42C90009A075 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		B035C067693C32BD1545127A /* Pods-HeeMoneySDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeMoneySDKDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeeMoneySDKDemoUITests/Pods-HeeMoneySDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1BD1590EF4E5B3D20AA0224 /* libPods-HeeMoneySDKDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeeMoneySDKDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,46 +208,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE730EE1D6D42C90009A075 /* libz.1.2.5.tbd in Frameworks */,
+				0C0BC1E51DC08C9100E5F52B /* libASIHTTPRequest.a in Frameworks */,
 				ABE730EC1D6D42950009A075 /* CoreMedia.framework in Frameworks */,
 				ABE730EA1D6D42830009A075 /* LocalAuthentication.framework in Frameworks */,
+				0C0BC1F41DC08C9100E5F52B /* libPaymentControl.a in Frameworks */,
 				ABE730E81D6D42730009A075 /* AssetsLibrary.framework in Frameworks */,
+				0C0BC1E41DC08C9100E5F52B /* BaiduWallet_Portal.framework in Frameworks */,
 				ABE730E61D6D42530009A075 /* CoreLocation.framework in Frameworks */,
 				ABE730E41D6D424D0009A075 /* AVFoundation.framework in Frameworks */,
+				0C0BC1DF1DC08C9100E5F52B /* AlipaySDK.framework in Frameworks */,
+				0C0BC1E81DC08C9100E5F52B /* libJSONKit.a in Frameworks */,
 				ABE730E01D6D414B0009A075 /* MobileCoreServices.framework in Frameworks */,
 				ABE730DE1D6D413E0009A075 /* MessageUI.framework in Frameworks */,
 				ABE730DC1D6D41320009A075 /* MapKit.framework in Frameworks */,
+				0C0BC1E21DC08C9100E5F52B /* libUPAPayPlugin.a in Frameworks */,
+				0C0BC1F51DC08C9100E5F52B /* libHYWXPayAdapter.a in Frameworks */,
 				ABE730DA1D6D41270009A075 /* ImageIO.framework in Frameworks */,
 				ABE730D81D6D411D0009A075 /* CoreGraphics.framework in Frameworks */,
+				0C0BC1F31DC08C9100E5F52B /* libHYUnionPayAdapter.a in Frameworks */,
+				0C0BC1EA1DC08C9100E5F52B /* libHYBaiDuAdapter.a in Frameworks */,
 				ABE730D61D6D41140009A075 /* CoreAudio.framework in Frameworks */,
 				ABE730D41D6D41070009A075 /* AudioToolbox.framework in Frameworks */,
+				0C0BC1E71DC08C9100E5F52B /* libTouchJSON.a in Frameworks */,
 				ABE730D21D6D40FC0009A075 /* AddressBookUI.framework in Frameworks */,
+				0C0BC1F71DC08C9100E5F52B /* libHeeMoney.a in Frameworks */,
 				ABE730D01D6D40F70009A075 /* AddressBook.framework in Frameworks */,
 				ABE730CE1D6D40EB0009A075 /* libstdc++.tbd in Frameworks */,
+				0C0BC1EB1DC08C9100E5F52B /* libHYQQPayAdapter.a in Frameworks */,
 				ABE730CC1D6D40E10009A075 /* libsqlite3.0.tbd in Frameworks */,
 				ABE730CA1D6D40D30009A075 /* libc++.tbd in Frameworks */,
 				ABE730C81D6D40C50009A075 /* CoreMotion.framework in Frameworks */,
 				ABE730C61D6D40BB0009A075 /* CoreTelephony.framework in Frameworks */,
 				ABE730C41D6D40B10009A075 /* QuartzCore.framework in Frameworks */,
+				0C0BC1E01DC08C9100E5F52B /* libHYAliPayAdapter.a in Frameworks */,
 				ABE730C21D6D40A90009A075 /* Security.framework in Frameworks */,
+				0C0BC1F61DC08C9100E5F52B /* libWeChatSDK.a in Frameworks */,
+				0C0BC1E91DC08C9100E5F52B /* libSDWebImage.a in Frameworks */,
 				ABE730C01D6D40A10009A075 /* SystemConfiguration.framework in Frameworks */,
+				0C0BC1E61DC08C9100E5F52B /* libBaiduMobStatForSDK.a in Frameworks */,
+				0C0BC1E11DC08C9100E5F52B /* libHYApplePayAdapter.a in Frameworks */,
 				ABE730BE1D6D40970009A075 /* CFNetwork.framework in Frameworks */,
-				AB656D491D6D36E9003FA6ED /* libHeeMoney.a in Frameworks */,
-				AB656D2C1D6D36E9003FA6ED /* libHYAliPayAdapter.a in Frameworks */,
-				AB656D441D6D36E9003FA6ED /* libHYUnionPayAdapter.a in Frameworks */,
-				AB656D481D6D36E9003FA6ED /* libWeChatSDK.a in Frameworks */,
-				AB656D341D6D36E9003FA6ED /* libTouchJSON.a in Frameworks */,
-				AB656D321D6D36E9003FA6ED /* libASIHTTPRequest.a in Frameworks */,
-				AB656D351D6D36E9003FA6ED /* libJSONKit.a in Frameworks */,
-				AB656D2E1D6D36E9003FA6ED /* libHYApplePayAdapter.a in Frameworks */,
-				AB656D361D6D36E9003FA6ED /* libSDWebImage.a in Frameworks */,
-				AB656D311D6D36E9003FA6ED /* BaiduWallet_Portal.framework in Frameworks */,
-				AB656D451D6D36E9003FA6ED /* libPaymentControl.a in Frameworks */,
-				AB656D2F1D6D36E9003FA6ED /* libUPAPayPlugin.a in Frameworks */,
-				AB656D2A1D6D36E9003FA6ED /* AlipaySDK.framework in Frameworks */,
-				AB656D331D6D36E9003FA6ED /* libBaiduMobStatForSDK.a in Frameworks */,
-				AB656D471D6D36E9003FA6ED /* libHYWXPayAdapter.a in Frameworks */,
-				AB656D391D6D36E9003FA6ED /* libHYBaiDuAdapter.a in Frameworks */,
-				AB656D3A1D6D36E9003FA6ED /* libHYQQPayAdapter.a in Frameworks */,
+				270012663269B9FCFAD19F6A /* libPods-HeeMoneySDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650EA1AD93249FEBFB205321 /* libPods-HeeMoneySDKDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,12 +264,215 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7321DB482AEF51F4D3616AD4 /* libPods-HeeMoneySDKDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0BC1951DC08C9100E5F52B /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1961DC08C9100E5F52B /* Channel */,
+				0C0BC1DA1DC08C9100E5F52B /* HeeMoneySDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		0C0BC1961DC08C9100E5F52B /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1971DC08C9100E5F52B /* AliPay */,
+				0C0BC19A1DC08C9100E5F52B /* ApplePay */,
+				0C0BC19F1DC08C9100E5F52B /* BaiDu */,
+				0C0BC1C01DC08C9100E5F52B /* QQPay */,
+				0C0BC1D11DC08C9100E5F52B /* UnionPay */,
+				0C0BC1D51DC08C9100E5F52B /* WXPay */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		0C0BC1971DC08C9100E5F52B /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1981DC08C9100E5F52B /* AlipaySDK.framework */,
+				0C0BC1991DC08C9100E5F52B /* libHYAliPayAdapter.a */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		0C0BC19A1DC08C9100E5F52B /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC19B1DC08C9100E5F52B /* libHYApplePayAdapter.a */,
+				0C0BC19C1DC08C9100E5F52B /* libUPAPayPlugin.a */,
+				0C0BC19D1DC08C9100E5F52B /* UPAPayPlugin.h */,
+				0C0BC19E1DC08C9100E5F52B /* UPAPayPluginDelegate.h */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		0C0BC19F1DC08C9100E5F52B /* BaiDu */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1A01DC08C9100E5F52B /* BDWalletSDK */,
+				0C0BC1A31DC08C9100E5F52B /* Dependency */,
+				0C0BC1BF1DC08C9100E5F52B /* libHYBaiDuAdapter.a */,
+			);
+			path = BaiDu;
+			sourceTree = "<group>";
+		};
+		0C0BC1A01DC08C9100E5F52B /* BDWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1A11DC08C9100E5F52B /* BaiduWallet_Portal.bundle */,
+				0C0BC1A21DC08C9100E5F52B /* BaiduWallet_Portal.framework */,
+			);
+			path = BDWalletSDK;
+			sourceTree = "<group>";
+		};
+		0C0BC1A31DC08C9100E5F52B /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1A41DC08C9100E5F52B /* ASIHttpRequest */,
+				0C0BC1A71DC08C9100E5F52B /* BaiduMobStat */,
+				0C0BC1AB1DC08C9100E5F52B /* JSONKit */,
+				0C0BC1AE1DC08C9100E5F52B /* SDWebImage */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		0C0BC1A41DC08C9100E5F52B /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1A51DC08C9100E5F52B /* ASIHTTPRequest.h */,
+				0C0BC1A61DC08C9100E5F52B /* libASIHTTPRequest.a */,
+			);
+			path = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		0C0BC1A71DC08C9100E5F52B /* BaiduMobStat */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1A81DC08C9100E5F52B /* BaiduMobStat */,
+				0C0BC1AA1DC08C9100E5F52B /* libTouchJSON.a */,
+			);
+			path = BaiduMobStat;
+			sourceTree = "<group>";
+		};
+		0C0BC1A81DC08C9100E5F52B /* BaiduMobStat */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1A91DC08C9100E5F52B /* libBaiduMobStatForSDK.a */,
+			);
+			path = BaiduMobStat;
+			sourceTree = "<group>";
+		};
+		0C0BC1AB1DC08C9100E5F52B /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1AC1DC08C9100E5F52B /* JSONKit.h */,
+				0C0BC1AD1DC08C9100E5F52B /* libJSONKit.a */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		0C0BC1AE1DC08C9100E5F52B /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1AF1DC08C9100E5F52B /* libSDWebImage.a */,
+				0C0BC1B01DC08C9100E5F52B /* MKAnnotationView+WebCache.h */,
+				0C0BC1B11DC08C9100E5F52B /* NSData+ImageContentType.h */,
+				0C0BC1B21DC08C9100E5F52B /* SDImageCache.h */,
+				0C0BC1B31DC08C9100E5F52B /* SDWebImageCompat.h */,
+				0C0BC1B41DC08C9100E5F52B /* SDWebImageDecoder.h */,
+				0C0BC1B51DC08C9100E5F52B /* SDWebImageDownloader.h */,
+				0C0BC1B61DC08C9100E5F52B /* SDWebImageDownloaderOperation.h */,
+				0C0BC1B71DC08C9100E5F52B /* SDWebImageManager.h */,
+				0C0BC1B81DC08C9100E5F52B /* SDWebImageOperation.h */,
+				0C0BC1B91DC08C9100E5F52B /* SDWebImagePrefetcher.h */,
+				0C0BC1BA1DC08C9100E5F52B /* UIButton+WebCache.h */,
+				0C0BC1BB1DC08C9100E5F52B /* UIImage+GIF.h */,
+				0C0BC1BC1DC08C9100E5F52B /* UIImage+MultiFormat.h */,
+				0C0BC1BD1DC08C9100E5F52B /* UIImage+WebP.h */,
+				0C0BC1BE1DC08C9100E5F52B /* UIImageView+WebCache.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		0C0BC1C01DC08C9100E5F52B /* QQPay */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1C11DC08C9100E5F52B /* libHYQQPayAdapter.a */,
+				0C0BC1C21DC08C9100E5F52B /* QQWalletSDK */,
+			);
+			path = QQPay;
+			sourceTree = "<group>";
+		};
+		0C0BC1C21DC08C9100E5F52B /* QQWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1C31DC08C9100E5F52B /* QQWalletDefines.h */,
+				0C0BC1C41DC08C9100E5F52B /* QQWalletDefines.m */,
+				0C0BC1C51DC08C9100E5F52B /* QQWalletSDK.h */,
+				0C0BC1C61DC08C9100E5F52B /* QQWalletSDK.m */,
+				0C0BC1C71DC08C9100E5F52B /* QWApplication.h */,
+				0C0BC1C81DC08C9100E5F52B /* QWApplication.m */,
+				0C0BC1C91DC08C9100E5F52B /* QWMessage.h */,
+				0C0BC1CA1DC08C9100E5F52B /* QWMessage.m */,
+				0C0BC1CB1DC08C9100E5F52B /* QWServerPayTask.h */,
+				0C0BC1CC1DC08C9100E5F52B /* QWServerPayTask.m */,
+				0C0BC1CD1DC08C9100E5F52B /* QWTask.h */,
+				0C0BC1CE1DC08C9100E5F52B /* QWTask.m */,
+				0C0BC1CF1DC08C9100E5F52B /* QWURLEncodeEngine.h */,
+				0C0BC1D01DC08C9100E5F52B /* QWURLEncodeEngine.m */,
+			);
+			path = QQWalletSDK;
+			sourceTree = "<group>";
+		};
+		0C0BC1D11DC08C9100E5F52B /* UnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1D21DC08C9100E5F52B /* libHYUnionPayAdapter.a */,
+				0C0BC1D31DC08C9100E5F52B /* libPaymentControl.a */,
+				0C0BC1D41DC08C9100E5F52B /* UPPaymentControl.h */,
+			);
+			path = UnionPay;
+			sourceTree = "<group>";
+		};
+		0C0BC1D51DC08C9100E5F52B /* WXPay */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1D61DC08C9100E5F52B /* libHYWXPayAdapter.a */,
+				0C0BC1D71DC08C9100E5F52B /* libWeChatSDK.a */,
+				0C0BC1D81DC08C9100E5F52B /* WXApi.h */,
+				0C0BC1D91DC08C9100E5F52B /* WXApiObject.h */,
+			);
+			path = WXPay;
+			sourceTree = "<group>";
+		};
+		0C0BC1DA1DC08C9100E5F52B /* HeeMoneySDK */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BC1DB1DC08C9100E5F52B /* HeeMoney.h */,
+				0C0BC1DC1DC08C9100E5F52B /* HYPayReq.h */,
+				0C0BC1DD1DC08C9100E5F52B /* HYPayResp.h */,
+				0C0BC1DE1DC08C9100E5F52B /* libHeeMoney.a */,
+			);
+			path = HeeMoneySDK;
+			sourceTree = "<group>";
+		};
+		5D34631250E8E15FEFB548D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5B3FAF47E8B283C92E2FA2 /* libPods-HeeMoneySDKDemo.a */,
+				6FD615A742501D5607455A93 /* libPods-HeeMoneySDKDemoTests.a */,
+				C1BD1590EF4E5B3D20AA0224 /* libPods-HeeMoneySDKDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB240DCB1D631AC400920C78 = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +504,8 @@
 				AB240DF01D631AC400920C78 /* HeeMoneySDKDemoTests */,
 				AB240DFB1D631AC400920C78 /* HeeMoneySDKDemoUITests */,
 				AB240DD51D631AC400920C78 /* Products */,
+				C6DCCB003655603E84AAB085 /* Pods */,
+				5D34631250E8E15FEFB548D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -326,28 +522,19 @@
 		AB240DD61D631AC400920C78 /* HeeMoneySDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0C0BC1951DC08C9100E5F52B /* SDK */,
 				AB2766DE1D7587300039ED93 /* Lib */,
-				AB656CCC1D6D36E9003FA6ED /* SDK */,
 				AB240DDA1D631AC400920C78 /* AppDelegate.h */,
 				AB240DDB1D631AC400920C78 /* AppDelegate.m */,
 				AB240DDD1D631AC400920C78 /* ViewController.h */,
 				AB240DDE1D631AC400920C78 /* ViewController.m */,
-				AB7A5DC51D63FB99004E6053 /* HYGoodsChannelCell.h */,
-				AB7A5DC61D63FB99004E6053 /* HYGoodsChannelCell.m */,
 				AB13E3B31D6559CF002503A3 /* HYPayChannelCell.h */,
 				AB13E3B41D6559CF002503A3 /* HYPayChannelCell.m */,
-				AB7A5DC81D64347A004E6053 /* HYOrderTableViewController.h */,
-				AB7A5DC91D64347A004E6053 /* HYOrderTableViewController.m */,
-				AB13E3B01D645C14002503A3 /* HYPayViewController.h */,
-				AB13E3B11D645C14002503A3 /* HYPayViewController.m */,
-				AB92C8871D75216A00E7BBF9 /* HYResultViewController.h */,
-				AB92C8881D75216A00E7BBF9 /* HYResultViewController.m */,
-				AB8239CF1D6A9DF8005B372E /* HYGoods.h */,
-				AB8239D01D6A9DF8005B372E /* HYGoods.m */,
-				AB240DE01D631AC400920C78 /* Main.storyboard */,
-				AB240DE31D631AC400920C78 /* Assets.xcassets */,
-				AB240DE51D631AC400920C78 /* LaunchScreen.storyboard */,
+				0C8AEBBE1DBDAF4200B7B4E6 /* HYUtils.h */,
+				0C8AEBBF1DBDAF4200B7B4E6 /* HYUtils.m */,
 				AB240DE81D631AC400920C78 /* Info.plist */,
+				0C0BC0D11DC04C6D00E5F52B /* LaunchScreen.storyboard */,
+				0C8AEBC11DBE103B00B7B4E6 /* Assets.xcassets */,
 				AB240DD71D631AC400920C78 /* Supporting Files */,
 			);
 			path = HeeMoneySDKDemo;
@@ -382,216 +569,23 @@
 		AB2766DE1D7587300039ED93 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				AB2766DF1D7587300039ED93 /* SVProgressHUD */,
+				0C8AEBBB1DBDAEB800B7B4E6 /* MBProgressHUD.h */,
+				0C8AEBBC1DBDAEB800B7B4E6 /* MBProgressHUD.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
 		};
-		AB2766DF1D7587300039ED93 /* SVProgressHUD */ = {
+		C6DCCB003655603E84AAB085 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB2766E01D7587300039ED93 /* SVIndefiniteAnimatedView.h */,
-				AB2766E11D7587300039ED93 /* SVIndefiniteAnimatedView.m */,
-				AB2766E21D7587300039ED93 /* SVProgressHUD-Prefix.pch */,
-				AB2766E31D7587300039ED93 /* SVProgressHUD.bundle */,
-				AB2766E41D7587300039ED93 /* SVProgressHUD.h */,
-				AB2766E51D7587300039ED93 /* SVProgressHUD.m */,
-				AB2766E61D7587300039ED93 /* SVRadialGradientLayer.h */,
-				AB2766E71D7587300039ED93 /* SVRadialGradientLayer.m */,
+				05D2A8DF71D39C90981A4003 /* Pods-HeeMoneySDKDemo.debug.xcconfig */,
+				8DAD0384AD19433CD8FA6692 /* Pods-HeeMoneySDKDemo.release.xcconfig */,
+				5A11333FB5E7CE4ECABAF3D4 /* Pods-HeeMoneySDKDemoTests.debug.xcconfig */,
+				80CFC4D3F465E37FFF2F496E /* Pods-HeeMoneySDKDemoTests.release.xcconfig */,
+				20FAE5A84FD09EA979F5497F /* Pods-HeeMoneySDKDemoUITests.debug.xcconfig */,
+				B035C067693C32BD1545127A /* Pods-HeeMoneySDKDemoUITests.release.xcconfig */,
 			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		AB656CCC1D6D36E9003FA6ED /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CCD1D6D36E9003FA6ED /* Channel */,
-				AB656D251D6D36E9003FA6ED /* HeeMoneySDK */,
-			);
-			path = SDK;
-			sourceTree = "<group>";
-		};
-		AB656CCD1D6D36E9003FA6ED /* Channel */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CCE1D6D36E9003FA6ED /* AliPay */,
-				AB656CD41D6D36E9003FA6ED /* ApplePay */,
-				AB656CDC1D6D36E9003FA6ED /* BaiDu */,
-				AB656D021D6D36E9003FA6ED /* QQPay */,
-				AB656D161D6D36E9003FA6ED /* UnionPay */,
-				AB656D1D1D6D36E9003FA6ED /* WXPay */,
-			);
-			path = Channel;
-			sourceTree = "<group>";
-		};
-		AB656CCE1D6D36E9003FA6ED /* AliPay */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CCF1D6D36E9003FA6ED /* AlipaySDK.framework */,
-				AB656CD31D6D36E9003FA6ED /* libHYAliPayAdapter.a */,
-			);
-			path = AliPay;
-			sourceTree = "<group>";
-		};
-		AB656CD41D6D36E9003FA6ED /* ApplePay */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CD81D6D36E9003FA6ED /* libHYApplePayAdapter.a */,
-				AB656CD91D6D36E9003FA6ED /* libUPAPayPlugin.a */,
-				AB656CDA1D6D36E9003FA6ED /* UPAPayPlugin.h */,
-				AB656CDB1D6D36E9003FA6ED /* UPAPayPluginDelegate.h */,
-			);
-			path = ApplePay;
-			sourceTree = "<group>";
-		};
-		AB656CDC1D6D36E9003FA6ED /* BaiDu */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CDD1D6D36E9003FA6ED /* BDWalletSDK */,
-				AB656CE01D6D36E9003FA6ED /* Dependency */,
-				AB656D011D6D36E9003FA6ED /* libHYBaiDuAdapter.a */,
-			);
-			path = BaiDu;
-			sourceTree = "<group>";
-		};
-		AB656CDD1D6D36E9003FA6ED /* BDWalletSDK */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CDE1D6D36E9003FA6ED /* BaiduWallet_Portal.bundle */,
-				AB656CDF1D6D36E9003FA6ED /* BaiduWallet_Portal.framework */,
-			);
-			path = BDWalletSDK;
-			sourceTree = "<group>";
-		};
-		AB656CE01D6D36E9003FA6ED /* Dependency */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CE11D6D36E9003FA6ED /* ASIHttpRequest */,
-				AB656CE41D6D36E9003FA6ED /* BaiduMobStat */,
-				AB656CE81D6D36E9003FA6ED /* JSONKit */,
-				AB656CEB1D6D36E9003FA6ED /* SDWebImage */,
-			);
-			path = Dependency;
-			sourceTree = "<group>";
-		};
-		AB656CE11D6D36E9003FA6ED /* ASIHttpRequest */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CE21D6D36E9003FA6ED /* ASIHTTPRequest.h */,
-				AB656CE31D6D36E9003FA6ED /* libASIHTTPRequest.a */,
-			);
-			path = ASIHttpRequest;
-			sourceTree = "<group>";
-		};
-		AB656CE41D6D36E9003FA6ED /* BaiduMobStat */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CE51D6D36E9003FA6ED /* BaiduMobStat */,
-				AB656CE71D6D36E9003FA6ED /* libTouchJSON.a */,
-			);
-			path = BaiduMobStat;
-			sourceTree = "<group>";
-		};
-		AB656CE51D6D36E9003FA6ED /* BaiduMobStat */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CE61D6D36E9003FA6ED /* libBaiduMobStatForSDK.a */,
-			);
-			path = BaiduMobStat;
-			sourceTree = "<group>";
-		};
-		AB656CE81D6D36E9003FA6ED /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CE91D6D36E9003FA6ED /* JSONKit.h */,
-				AB656CEA1D6D36E9003FA6ED /* libJSONKit.a */,
-			);
-			path = JSONKit;
-			sourceTree = "<group>";
-		};
-		AB656CEB1D6D36E9003FA6ED /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				AB656CEC1D6D36E9003FA6ED /* libSDWebImage.a */,
-				AB656CED1D6D36E9003FA6ED /* MKAnnotationView+WebCache.h */,
-				AB656CEE1D6D36E9003FA6ED /* NSData+ImageContentType.h */,
-				AB656CEF1D6D36E9003FA6ED /* SDImageCache.h */,
-				AB656CF01D6D36E9003FA6ED /* SDWebImageCompat.h */,
-				AB656CF11D6D36E9003FA6ED /* SDWebImageDecoder.h */,
-				AB656CF21D6D36E9003FA6ED /* SDWebImageDownloader.h */,
-				AB656CF31D6D36E9003FA6ED /* SDWebImageDownloaderOperation.h */,
-				AB656CF41D6D36E9003FA6ED /* SDWebImageManager.h */,
-				AB656CF51D6D36E9003FA6ED /* SDWebImageOperation.h */,
-				AB656CF61D6D36E9003FA6ED /* SDWebImagePrefetcher.h */,
-				AB656CF71D6D36E9003FA6ED /* UIButton+WebCache.h */,
-				AB656CF81D6D36E9003FA6ED /* UIImage+GIF.h */,
-				AB656CF91D6D36E9003FA6ED /* UIImage+MultiFormat.h */,
-				AB656CFA1D6D36E9003FA6ED /* UIImage+WebP.h */,
-				AB656CFB1D6D36E9003FA6ED /* UIImageView+WebCache.h */,
-			);
-			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		AB656D021D6D36E9003FA6ED /* QQPay */ = {
-			isa = PBXGroup;
-			children = (
-				AB656D031D6D36E9003FA6ED /* libHYQQPayAdapter.a */,
-				AB656D071D6D36E9003FA6ED /* QQWalletSDK */,
-			);
-			path = QQPay;
-			sourceTree = "<group>";
-		};
-		AB656D071D6D36E9003FA6ED /* QQWalletSDK */ = {
-			isa = PBXGroup;
-			children = (
-				AB656D081D6D36E9003FA6ED /* QQWalletDefines.h */,
-				AB656D091D6D36E9003FA6ED /* QQWalletDefines.m */,
-				AB656D0A1D6D36E9003FA6ED /* QQWalletSDK.h */,
-				AB656D0B1D6D36E9003FA6ED /* QQWalletSDK.m */,
-				AB656D0C1D6D36E9003FA6ED /* QWApplication.h */,
-				AB656D0D1D6D36E9003FA6ED /* QWApplication.m */,
-				AB656D0E1D6D36E9003FA6ED /* QWMessage.h */,
-				AB656D0F1D6D36E9003FA6ED /* QWMessage.m */,
-				AB656D101D6D36E9003FA6ED /* QWServerPayTask.h */,
-				AB656D111D6D36E9003FA6ED /* QWServerPayTask.m */,
-				AB656D121D6D36E9003FA6ED /* QWTask.h */,
-				AB656D131D6D36E9003FA6ED /* QWTask.m */,
-				AB656D141D6D36E9003FA6ED /* QWURLEncodeEngine.h */,
-				AB656D151D6D36E9003FA6ED /* QWURLEncodeEngine.m */,
-			);
-			path = QQWalletSDK;
-			sourceTree = "<group>";
-		};
-		AB656D161D6D36E9003FA6ED /* UnionPay */ = {
-			isa = PBXGroup;
-			children = (
-				AB656D1A1D6D36E9003FA6ED /* libHYUnionPayAdapter.a */,
-				AB656D1B1D6D36E9003FA6ED /* libPaymentControl.a */,
-				AB656D1C1D6D36E9003FA6ED /* UPPaymentControl.h */,
-			);
-			path = UnionPay;
-			sourceTree = "<group>";
-		};
-		AB656D1D1D6D36E9003FA6ED /* WXPay */ = {
-			isa = PBXGroup;
-			children = (
-				AB656D211D6D36E9003FA6ED /* libHYWXPayAdapter.a */,
-				AB656D221D6D36E9003FA6ED /* libWeChatSDK.a */,
-				AB656D231D6D36E9003FA6ED /* WXApi.h */,
-				AB656D241D6D36E9003FA6ED /* WXApiObject.h */,
-			);
-			path = WXPay;
-			sourceTree = "<group>";
-		};
-		AB656D251D6D36E9003FA6ED /* HeeMoneySDK */ = {
-			isa = PBXGroup;
-			children = (
-				AB2E72771D6E956F00BFE215 /* HeeMoney.h */,
-				AB2E72781D6E956F00BFE215 /* HYPayReq.h */,
-				AB2E72791D6E956F00BFE215 /* HYPayResp.h */,
-				AB656D291D6D36E9003FA6ED /* libHeeMoney.a */,
-			);
-			path = HeeMoneySDK;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -601,9 +595,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB240E011D631AC400920C78 /* Build configuration list for PBXNativeTarget "HeeMoneySDKDemo" */;
 			buildPhases = (
+				3B74964E79B0FCFC650F5146 /* [CP] Check Pods Manifest.lock */,
 				AB240DD01D631AC400920C78 /* Sources */,
 				AB240DD11D631AC400920C78 /* Frameworks */,
 				AB240DD21D631AC400920C78 /* Resources */,
+				3EBABD97058763FA2C4E4E46 /* [CP] Embed Pods Frameworks */,
+				02880618D355B969BBD140E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -618,9 +615,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB240E041D631AC400920C78 /* Build configuration list for PBXNativeTarget "HeeMoneySDKDemoTests" */;
 			buildPhases = (
+				979562DA23F1EC51A8427E2F /* [CP] Check Pods Manifest.lock */,
 				AB240DE91D631AC400920C78 /* Sources */,
 				AB240DEA1D631AC400920C78 /* Frameworks */,
 				AB240DEB1D631AC400920C78 /* Resources */,
+				3B582905C044169B92A8BED3 /* [CP] Embed Pods Frameworks */,
+				978AD353436CD666E3E4BAAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -636,9 +636,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB240E071D631AC400920C78 /* Build configuration list for PBXNativeTarget "HeeMoneySDKDemoUITests" */;
 			buildPhases = (
+				278084B1A434B3E3FFEA73FE /* [CP] Check Pods Manifest.lock */,
 				AB240DF41D631AC400920C78 /* Sources */,
 				AB240DF51D631AC400920C78 /* Frameworks */,
 				AB240DF61D631AC400920C78 /* Resources */,
+				1173CA32CA1A1FFDA95F8BF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -704,11 +706,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2766E91D7587300039ED93 /* SVProgressHUD.bundle in Resources */,
-				AB656D301D6D36E9003FA6ED /* BaiduWallet_Portal.bundle in Resources */,
-				AB240DE71D631AC400920C78 /* LaunchScreen.storyboard in Resources */,
-				AB240DE41D631AC400920C78 /* Assets.xcassets in Resources */,
-				AB240DE21D631AC400920C78 /* Main.storyboard in Resources */,
+				0C0BC1E31DC08C9100E5F52B /* BaiduWallet_Portal.bundle in Resources */,
+				0C0BC0D31DC04C6D00E5F52B /* LaunchScreen.storyboard in Resources */,
+				0C8AEBC21DBE103B00B7B4E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,30 +728,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02880618D355B969BBD140E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeMoneySDKDemo/Pods-HeeMoneySDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1173CA32CA1A1FFDA95F8BF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeMoneySDKDemoUITests/Pods-HeeMoneySDKDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		278084B1A434B3E3FFEA73FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B582905C044169B92A8BED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeMoneySDKDemoTests/Pods-HeeMoneySDKDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B74964E79B0FCFC650F5146 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EBABD97058763FA2C4E4E46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeMoneySDKDemo/Pods-HeeMoneySDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		978AD353436CD666E3E4BAAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeMoneySDKDemoTests/Pods-HeeMoneySDKDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979562DA23F1EC51A8427E2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB240DD01D631AC400920C78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB13E3B21D645C14002503A3 /* HYPayViewController.m in Sources */,
-				AB8239D11D6A9DF8005B372E /* HYGoods.m in Sources */,
-				AB92C8891D75216A00E7BBF9 /* HYResultViewController.m in Sources */,
-				AB656D3F1D6D36E9003FA6ED /* QWMessage.m in Sources */,
+				0C8AEBC01DBDAF4200B7B4E6 /* HYUtils.m in Sources */,
 				AB240DDF1D631AC400920C78 /* ViewController.m in Sources */,
-				AB2766EA1D7587300039ED93 /* SVProgressHUD.m in Sources */,
-				AB7A5DC71D63FB99004E6053 /* HYGoodsChannelCell.m in Sources */,
-				AB2766E81D7587300039ED93 /* SVIndefiniteAnimatedView.m in Sources */,
-				AB656D3E1D6D36E9003FA6ED /* QWApplication.m in Sources */,
-				AB656D411D6D36E9003FA6ED /* QWTask.m in Sources */,
 				AB240DDC1D631AC400920C78 /* AppDelegate.m in Sources */,
-				AB2766EB1D7587300039ED93 /* SVRadialGradientLayer.m in Sources */,
-				AB656D3D1D6D36E9003FA6ED /* QQWalletSDK.m in Sources */,
+				0C0BC1EE1DC08C9100E5F52B /* QWApplication.m in Sources */,
 				AB13E3B51D6559CF002503A3 /* HYPayChannelCell.m in Sources */,
-				AB7A5DCA1D64347A004E6053 /* HYOrderTableViewController.m in Sources */,
-				AB656D401D6D36E9003FA6ED /* QWServerPayTask.m in Sources */,
-				AB656D421D6D36E9003FA6ED /* QWURLEncodeEngine.m in Sources */,
 				AB240DD91D631AC400920C78 /* main.m in Sources */,
-				AB656D3C1D6D36E9003FA6ED /* QQWalletDefines.m in Sources */,
+				0C0BC1ED1DC08C9100E5F52B /* QQWalletSDK.m in Sources */,
+				0C0BC1EF1DC08C9100E5F52B /* QWMessage.m in Sources */,
+				0C8AEBBD1DBDAEB800B7B4E6 /* MBProgressHUD.m in Sources */,
+				0C0BC1F21DC08C9100E5F52B /* QWURLEncodeEngine.m in Sources */,
+				0C0BC1EC1DC08C9100E5F52B /* QQWalletDefines.m in Sources */,
+				0C0BC1F11DC08C9100E5F52B /* QWTask.m in Sources */,
+				0C0BC1F01DC08C9100E5F52B /* QWServerPayTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,18 +904,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB240DE01D631AC400920C78 /* Main.storyboard */ = {
+		0C0BC0D11DC04C6D00E5F52B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB240DE11D631AC400920C78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AB240DE51D631AC400920C78 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB240DE61D631AC400920C78 /* Base */,
+				0C0BC0D21DC04C6D00E5F52B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -892,6 +1001,7 @@
 		};
 		AB240E021D631AC400920C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D2A8DF71D39C90981A4003 /* Pods-HeeMoneySDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jingjing Min (FTMDZ4AWS7)";
@@ -930,6 +1040,7 @@
 		};
 		AB240E031D631AC400920C78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAD0384AD19433CD8FA6692 /* Pods-HeeMoneySDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jingjing Min (FTMDZ4AWS7)";
@@ -967,6 +1078,7 @@
 		};
 		AB240E051D631AC400920C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A11333FB5E7CE4ECABAF3D4 /* Pods-HeeMoneySDKDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HeeMoneySDKDemoTests/Info.plist;
@@ -979,6 +1091,7 @@
 		};
 		AB240E061D631AC400920C78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CFC4D3F465E37FFF2F496E /* Pods-HeeMoneySDKDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HeeMoneySDKDemoTests/Info.plist;
@@ -991,6 +1104,7 @@
 		};
 		AB240E081D631AC400920C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FAE5A84FD09EA979F5497F /* Pods-HeeMoneySDKDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HeeMoneySDKDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1002,6 +1116,7 @@
 		};
 		AB240E091D631AC400920C78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B035C067693C32BD1545127A /* Pods-HeeMoneySDKDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HeeMoneySDKDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

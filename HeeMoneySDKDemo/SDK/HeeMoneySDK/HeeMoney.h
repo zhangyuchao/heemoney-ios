@@ -19,20 +19,12 @@
  *  不同类型的请求，对应不同的响应
  *  @param resp 响应体
  */
--(void)onHeeMoneyResp:(HYBaseResp *)resp;
+-(void)onHeeMoneyResp:(HYPayResp *)resp;
 
 @end
 
 #pragma mark --- HeeMoney
 @interface HeeMoney : NSObject
-
-/**
- *  SharedInstance
- *
- *  @return SharedInstance
- */
-+ (instancetype)sharedInstance;
-
 
 /**
  * 处理通过URL启动App时传递的数据。需要在application:openURL:sourceApplication:annotation:中调用。
@@ -43,19 +35,6 @@
  */
 + (BOOL)handleOpenUrl:(NSURL *)url;
 
-/**
- *  设置接收消息的对象
- *
- *  @param delegate HeeMoneyDelegate对象，用来接收HeeMoney触发的消息。
- */
-+ (void)setHeeMoneyDelegate:(id<HeeMoneyDelegate>)delegate;
-
-/**
- *  获取接收消息的对象
- *
- *  @return HeeMoneyDelegate对象，用来接收HeeMoney触发的消息。
- */
-+ (id<HeeMoneyDelegate>)getHeeMoneyDelegate;
 
 /**
  *  设置开启或关闭沙箱测试环境
@@ -100,13 +79,6 @@
  */
 + (void)setWillPrintLog:(BOOL)flag;
 
-/**
- *  设置网络请求超时时间
- *
- *  @param time 超时时间, 5.0代表5秒。
- */
-+ (void)setNetworkTimeout:(NSTimeInterval)time;
-
 #pragma mark - Send HeeMoney Request
 
 /**
@@ -116,6 +88,6 @@
  *
  *  @return 发送请求是否成功
  */
-+ (BOOL)sendHYReq:(HYBaseReq *)req;
++ (BOOL)sendHYReq:(HYBaseReq *)req delegate:(id<HeeMoneyDelegate>) delegate;
 
 @end

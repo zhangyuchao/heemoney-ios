@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8F98DC18150D7B1E0B41070C89570E /* Pods-HeeMoneySDKDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3750824DB81D137185D2E8910B0980 /* Pods-HeeMoneySDKDemoUITests-dummy.m */; };
+		49953BEFB1663C964ED81514C057DDB5 /* Pods-HeeMoneySDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E5A2149C5BE10B1B62ACA56546BF53 /* Pods-HeeMoneySDKDemo-dummy.m */; };
+		4E3757E8FFE0D2D229A1A2ABC21FA66A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DA3820B42AF74C70F10E43D255F6D61E /* Pods-HeeMoneySDKDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 981A0443B22E4A20CF60F38FD6BF0421 /* Pods-HeeMoneySDKDemoTests-dummy.m */; };
+		E0BDBDC85F82FE14B6621F79FE72B1D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F3BFE3650B31198E5C79C7F8B4DDE67F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11729AAECC3C6B0746D97FC68EB57C40 /* Pods-HeeMoneySDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeeMoneySDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1423F9F335C76DB45F6FBD79374BE37D /* Pods-HeeMoneySDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeeMoneySDKDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1918049BA094AC75FE872E5160438C8E /* Pods-HeeMoneySDKDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeeMoneySDKDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		406A28AB790E5C995434116BCE1F8C49 /* Pods-HeeMoneySDKDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeeMoneySDKDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		5772F46724019626B91E69CCBFAD0DA0 /* Pods-HeeMoneySDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeeMoneySDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6CE1E2F487497B502E6E3663A83F0FD2 /* Pods-HeeMoneySDKDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeeMoneySDKDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77C40C6493C04848A8E6D6BA40B3F397 /* Pods-HeeMoneySDKDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeeMoneySDKDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7885561F4F60FFDFA020E668246C78BD /* Pods-HeeMoneySDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeeMoneySDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E80CA5244EADA905656B3EBAE87B737 /* Pods-HeeMoneySDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeeMoneySDKDemo-resources.sh"; sourceTree = "<group>"; };
+		867C97D196CBC8F03816C1751F4549FA /* Pods-HeeMoneySDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeeMoneySDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C60A55C29EF11336D8E9F00E76C273D /* libPods-HeeMoneySDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeeMoneySDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F57FD253FAC34E19BC3D20F612B09F6 /* Pods-HeeMoneySDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeeMoneySDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		981A0443B22E4A20CF60F38FD6BF0421 /* Pods-HeeMoneySDKDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeeMoneySDKDemoTests-dummy.m"; sourceTree = "<group>"; };
+		9B3750824DB81D137185D2E8910B0980 /* Pods-HeeMoneySDKDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeeMoneySDKDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		9FB9DCF6A4B36CE75A90E26BB5FDDD35 /* Pods-HeeMoneySDKDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeeMoneySDKDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A86A2F0ADAC8151667343D82068208B1 /* Pods-HeeMoneySDKDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeeMoneySDKDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		C49E1E142F2233ACCB8F8E5E7A2793A2 /* Pods-HeeMoneySDKDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeeMoneySDKDemoTests-resources.sh"; sourceTree = "<group>"; };
+		C72E29E630D3D6A8AF0F077B4B408832 /* Pods-HeeMoneySDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeeMoneySDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8E5A2149C5BE10B1B62ACA56546BF53 /* Pods-HeeMoneySDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeeMoneySDKDemo-dummy.m"; sourceTree = "<group>"; };
+		CBFD4471B23D5E2B56078398F5FA571A /* libPods-HeeMoneySDKDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeeMoneySDKDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D65625B7FFA16F50C1556AF55B166F01 /* Pods-HeeMoneySDKDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeeMoneySDKDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8EC852916998AA4485BC721BE800EB1 /* Pods-HeeMoneySDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeeMoneySDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E7059B29457A0E50C0B82E4B7E2A8587 /* Pods-HeeMoneySDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeeMoneySDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F18711F43598067FD06439C487F83D11 /* libPods-HeeMoneySDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeeMoneySDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F5359937CD1F57A8E2428895370EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3757E8FFE0D2D229A1A2ABC21FA66A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86536E4D7E1F7C969838106DA6215C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BDBDC85F82FE14B6621F79FE72B1D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C177174214E21C4F2BEC8EC22C141C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BFE3650B31198E5C79C7F8B4DDE67F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ECC0390752257E4F344E2C42A957229 /* Pods-HeeMoneySDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D65625B7FFA16F50C1556AF55B166F01 /* Pods-HeeMoneySDKDemoTests-acknowledgements.markdown */,
+				6CE1E2F487497B502E6E3663A83F0FD2 /* Pods-HeeMoneySDKDemoTests-acknowledgements.plist */,
+				981A0443B22E4A20CF60F38FD6BF0421 /* Pods-HeeMoneySDKDemoTests-dummy.m */,
+				406A28AB790E5C995434116BCE1F8C49 /* Pods-HeeMoneySDKDemoTests-frameworks.sh */,
+				C49E1E142F2233ACCB8F8E5E7A2793A2 /* Pods-HeeMoneySDKDemoTests-resources.sh */,
+				11729AAECC3C6B0746D97FC68EB57C40 /* Pods-HeeMoneySDKDemoTests.debug.xcconfig */,
+				E7059B29457A0E50C0B82E4B7E2A8587 /* Pods-HeeMoneySDKDemoTests.release.xcconfig */,
+			);
+			name = "Pods-HeeMoneySDKDemoTests";
+			path = "Target Support Files/Pods-HeeMoneySDKDemoTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		42BF460C508805039C4EEA3F005A373D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7388445B3B8BE22B1EBC71C47EE5B08C /* Pods-HeeMoneySDKDemo */,
+				1ECC0390752257E4F344E2C42A957229 /* Pods-HeeMoneySDKDemoTests */,
+				7302013F89ED7B86C2B1335A9E031E3F /* Pods-HeeMoneySDKDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4789610618358E73442FA112090DB1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C60A55C29EF11336D8E9F00E76C273D /* libPods-HeeMoneySDKDemo.a */,
+				F18711F43598067FD06439C487F83D11 /* libPods-HeeMoneySDKDemoTests.a */,
+				CBFD4471B23D5E2B56078398F5FA571A /* libPods-HeeMoneySDKDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7302013F89ED7B86C2B1335A9E031E3F /* Pods-HeeMoneySDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9DCF6A4B36CE75A90E26BB5FDDD35 /* Pods-HeeMoneySDKDemoUITests-acknowledgements.markdown */,
+				1918049BA094AC75FE872E5160438C8E /* Pods-HeeMoneySDKDemoUITests-acknowledgements.plist */,
+				9B3750824DB81D137185D2E8910B0980 /* Pods-HeeMoneySDKDemoUITests-dummy.m */,
+				77C40C6493C04848A8E6D6BA40B3F397 /* Pods-HeeMoneySDKDemoUITests-frameworks.sh */,
+				A86A2F0ADAC8151667343D82068208B1 /* Pods-HeeMoneySDKDemoUITests-resources.sh */,
+				7885561F4F60FFDFA020E668246C78BD /* Pods-HeeMoneySDKDemoUITests.debug.xcconfig */,
+				C72E29E630D3D6A8AF0F077B4B408832 /* Pods-HeeMoneySDKDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-HeeMoneySDKDemoUITests";
+			path = "Target Support Files/Pods-HeeMoneySDKDemoUITests";
+			sourceTree = "<group>";
+		};
+		7388445B3B8BE22B1EBC71C47EE5B08C /* Pods-HeeMoneySDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				867C97D196CBC8F03816C1751F4549FA /* Pods-HeeMoneySDKDemo-acknowledgements.markdown */,
+				8F57FD253FAC34E19BC3D20F612B09F6 /* Pods-HeeMoneySDKDemo-acknowledgements.plist */,
+				C8E5A2149C5BE10B1B62ACA56546BF53 /* Pods-HeeMoneySDKDemo-dummy.m */,
+				1423F9F335C76DB45F6FBD79374BE37D /* Pods-HeeMoneySDKDemo-frameworks.sh */,
+				7E80CA5244EADA905656B3EBAE87B737 /* Pods-HeeMoneySDKDemo-resources.sh */,
+				D8EC852916998AA4485BC721BE800EB1 /* Pods-HeeMoneySDKDemo.debug.xcconfig */,
+				5772F46724019626B91E69CCBFAD0DA0 /* Pods-HeeMoneySDKDemo.release.xcconfig */,
+			);
+			name = "Pods-HeeMoneySDKDemo";
+			path = "Target Support Files/Pods-HeeMoneySDKDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4789610618358E73442FA112090DB1B1 /* Products */,
+				42BF460C508805039C4EEA3F005A373D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B39F828DD6E841E4016BB1F65A790BF /* Pods-HeeMoneySDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6018E7B3E10C190F3F1727BE41C8C2 /* Build configuration list for PBXNativeTarget "Pods-HeeMoneySDKDemo" */;
+			buildPhases = (
+				38EEB766D9FB2484110F4E5662C9153D /* Sources */,
+				C177174214E21C4F2BEC8EC22C141C9E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HeeMoneySDKDemo";
+			productName = "Pods-HeeMoneySDKDemo";
+			productReference = 8C60A55C29EF11336D8E9F00E76C273D /* libPods-HeeMoneySDKDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5ED73874EE0C2D0B03B1E69B8BD20BCB /* Pods-HeeMoneySDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C997544085B8885B50240D3D1CAF8D2 /* Build configuration list for PBXNativeTarget "Pods-HeeMoneySDKDemoTests" */;
+			buildPhases = (
+				8CA431E2B9085A02357216621DB5EEA4 /* Sources */,
+				57F5359937CD1F57A8E2428895370EE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HeeMoneySDKDemoTests";
+			productName = "Pods-HeeMoneySDKDemoTests";
+			productReference = F18711F43598067FD06439C487F83D11 /* libPods-HeeMoneySDKDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF653ECBE3BDA1F927C709059F6E84B5 /* Pods-HeeMoneySDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A2902754F5105C998FB93C822CD651 /* Build configuration list for PBXNativeTarget "Pods-HeeMoneySDKDemoUITests" */;
+			buildPhases = (
+				B1478632CA52A35C867C2671AA5ABCE5 /* Sources */,
+				86536E4D7E1F7C969838106DA6215C6D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HeeMoneySDKDemoUITests";
+			productName = "Pods-HeeMoneySDKDemoUITests";
+			productReference = CBFD4471B23D5E2B56078398F5FA571A /* libPods-HeeMoneySDKDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4789610618358E73442FA112090DB1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B39F828DD6E841E4016BB1F65A790BF /* Pods-HeeMoneySDKDemo */,
+				5ED73874EE0C2D0B03B1E69B8BD20BCB /* Pods-HeeMoneySDKDemoTests */,
+				AF653ECBE3BDA1F927C709059F6E84B5 /* Pods-HeeMoneySDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EEB766D9FB2484110F4E5662C9153D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49953BEFB1663C964ED81514C057DDB5 /* Pods-HeeMoneySDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA431E2B9085A02357216621DB5EEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3820B42AF74C70F10E43D255F6D61E /* Pods-HeeMoneySDKDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1478632CA52A35C867C2671AA5ABCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8F98DC18150D7B1E0B41070C89570E /* Pods-HeeMoneySDKDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		008AA9AE90A32B529D07C5BEAF89ACC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7059B29457A0E50C0B82E4B7E2A8587 /* Pods-HeeMoneySDKDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0235614B60C9E04051AAC954BCB51A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5772F46724019626B91E69CCBFAD0DA0 /* Pods-HeeMoneySDKDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0A527DD9E2DAD1E7C5713A8FA8192162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7885561F4F60FFDFA020E668246C78BD /* Pods-HeeMoneySDKDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0C11FD4E40609DD55C6267110865C750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8EC852916998AA4485BC721BE800EB1 /* Pods-HeeMoneySDKDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		628594FE62A10550338FFEDB62A63892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72E29E630D3D6A8AF0F077B4B408832 /* Pods-HeeMoneySDKDemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D02D81D93B3F6884168F86ABF798C1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11729AAECC3C6B0746D97FC68EB57C40 /* Pods-HeeMoneySDKDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C997544085B8885B50240D3D1CAF8D2 /* Build configuration list for PBXNativeTarget "Pods-HeeMoneySDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02D81D93B3F6884168F86ABF798C1B7 /* Debug */,
+				008AA9AE90A32B529D07C5BEAF89ACC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A2902754F5105C998FB93C822CD651 /* Build configuration list for PBXNativeTarget "Pods-HeeMoneySDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A527DD9E2DAD1E7C5713A8FA8192162 /* Debug */,
+				628594FE62A10550338FFEDB62A63892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6018E7B3E10C190F3F1727BE41C8C2 /* Build configuration list for PBXNativeTarget "Pods-HeeMoneySDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C11FD4E40609DD55C6267110865C750 /* Debug */,
+				0235614B60C9E04051AAC954BCB51A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
