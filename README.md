@@ -13,7 +13,7 @@
 
 ### 一、支付流程
 
-![DFD.png](https://github.com/zhangyuchao/heemoney-ios/tree/master/Image/DFD.png)
+![通讯录.png](https://github.com/boai/BAWeChat/blob/master/Images/通讯录.png)
 
 
 **交互步骤：**
