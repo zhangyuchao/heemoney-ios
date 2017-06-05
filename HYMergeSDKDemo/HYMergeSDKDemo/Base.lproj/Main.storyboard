@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bLd-GU-Ye6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--支付中心-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" placeholder="请输入金额" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YRv-Is-8zq">
+                                <rect key="frame" x="26" y="128" width="323" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="hQl-of-8jp"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCx-kV-qCu">
+                                <rect key="frame" x="26" y="202" width="323" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="esb-ox-qmQ"/>
+                                </constraints>
+                                <state key="normal" title="微信支付"/>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JXa-HU-cEb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIE-4d-cFc">
+                                <rect key="frame" x="26" y="266" width="323" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="CLd-9z-WNe"/>
+                                </constraints>
+                                <state key="normal" title="支付宝支付"/>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eaw-vg-WAk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oCx-kV-qCu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1c1-wf-eDu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YRv-Is-8zq" secondAttribute="trailing" constant="10" id="2FZ-zM-bnv"/>
+                            <constraint firstItem="YRv-Is-8zq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7a7-3R-2fw"/>
+                            <constraint firstItem="OIE-4d-cFc" firstAttribute="top" secondItem="oCx-kV-qCu" secondAttribute="bottom" constant="20" id="7kh-qb-ulG"/>
+                            <constraint firstItem="OIE-4d-cFc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9BT-ts-LBT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OIE-4d-cFc" secondAttribute="trailing" constant="10" id="NEE-2u-hlv"/>
+                            <constraint firstItem="oCx-kV-qCu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="WUf-QU-PxV"/>
+                            <constraint firstItem="YRv-Is-8zq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="ZQ5-67-nUV"/>
+                            <constraint firstItem="YRv-Is-8zq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="bcS-H2-biK"/>
+                            <constraint firstItem="oCx-kV-qCu" firstAttribute="top" secondItem="YRv-Is-8zq" secondAttribute="bottom" constant="30" id="hOr-wY-Dux"/>
+                            <constraint firstItem="OIE-4d-cFc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="oa2-IN-hwe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oCx-kV-qCu" secondAttribute="trailing" constant="10" id="tVJ-l8-cHy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="支付中心" id="Xi4-v4-AOn"/>
+                    <connections>
+                        <outlet property="paymentFeeTF" destination="YRv-Is-8zq" id="qzX-EY-SRH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1168.8" y="163.26836581709148"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bgs-dy-Yd1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bLd-GU-Ye6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I1H-SH-dII">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="q6P-6m-qjY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qko-YL-IaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="229.59999999999999" y="163.26836581709148"/>
+        </scene>
+    </scenes>
+</document>
