@@ -11,6 +11,32 @@
 + 银联手机控件支付
 
 
+
+### 安装
+#### 使用CocoaPods
+1.在Podfile添加
+
+    pod 'HYMergeSDK', '~> 1.0.0'
+    
+可自行选择需要的支付渠道添加相应的模块
+目前支持的模块有：
+    
+    Alipay (支付宝移动支付)
+    Wx (微信app支付)
+        
+例如：
+
+    pod 'HYMergeSDK/Alipay', '~> 1.0.0'
+    pod 'HYMergeSDK/Wx', '~> 1.0.0'
+    
+2.运行
+
+    pod install
+    
+3.从现在开始使用 .xcwoekspace 打开项目，而不是 .xcodeproj
+
+4.添加 URL Schemes：在 Xcode 中，选择你的工程设置项，选中 "TARGETS" 一栏，在 "Info" 标签栏的 "URL Types" 添加 "URL Schemes"，如果使用微信，填入所注册的微信应用程序 id，如果不使用微信，则自定义，允许英文字母和数字，首字母必须是英文字母，建议起名稍复杂一些，尽量避免与其他程序冲突。
+
 ### 一、支付流程
 
 ![DFD.png](https://github.com/zhangyuchao/heemoney-ios/blob/master/Image/DFD.png)
