@@ -13,7 +13,7 @@
 
 ### 一、支付流程
 
-![流程图](/Users/huiyuan/trunk/iPhone/MergePay/SDK/HeeMoneySDK/document/DFD.png "支付流程图")
+![DFD.png](https://github.com/zhangyuchao/heemoney-ios/tree/master/Image/DFD.png)
 
 
 **交互步骤：**
